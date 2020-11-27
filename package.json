@@ -1,0 +1,24 @@
+{
+  "name": "ecotravel",
+  "version": "1.0.0",
+  "description": "agence de voyage eco responsable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatiaDelmas/Ecotravel.git"
+  },
+  "author": "Katia Delmas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatiaDelmas/Ecotravel/issues"
+  },
+  "homepage": "https://github.com/KatiaDelmas/Ecotravel#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.5.4",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
+  }
+}
