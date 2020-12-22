@@ -2,34 +2,47 @@ html {
   font-size: 62.5%;
 }
 
-.container-fluid {
+.container-fluid{
   margin: 0;
   padding: 0;
+  height: 100vh; 
+  /* width: 100vh; */
 }
 
 /* ------------------TYPO TEXT------------------ */
-/* .texttransform {
+.texttransform {
   text-transform: uppercase;
   font-weight: 800;
-} */
+}
 
 /* ------------------HEADER------------------ */
-
-header {
+.header {
   background-color: black;
   color: floralwhite;
+  height: 10%;
+  display: flex;
+  /* flex-direction: row; qui est celle qui se met en place par défaut */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 
 .backgroundimg {
-  background-image: url(img/herozone_flou.jpg);
-  /*max-width: 1300px;*/
-  /*height: 650px;*/ 
-  /*background-repeat: no-repeat;*/
+  background: url(img/herozone_flou.jpg) no-repeat center center fixed;
+  /* Préserve le ratio de l'image */
+  background-size: cover;
+  height: 80%;
+  min-width: 50%;
+  min-height: 50%;
   margin: auto;
 
 }
 
- .herozonetitle {
+.herozonetitle {
   font-family: 'Shadows Into Light Two', cursive;
   color: white;
   font-size: 5rem;
@@ -50,26 +63,14 @@ header {
   color: white;
 }
 
-header {
-  display: flex;
-  /* flex-direction: row; qui est celle qui se met en place par défaut */
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  position: relative;
-}
-
 .logoimg {
-  position: sticky;
-  width: 10em;
-  height: 10em;
-  z-index: 2;
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
 }
 
-header ul li {
-  display: inline-block;
+.nav .nav-item .nav-link {
+  display: flex;
   /*padding: 15px 20px;*/
   cursor: pointer;
   font-size: 1.2rem;
@@ -78,18 +79,15 @@ header ul li {
 
 .nav-link {
   color: white;
-
-}
-ul .nav-link li a:hover {
-  color :red;
 }
 
+.nav-link a:hover {
+  color: red;
+}
 
 .contact {
   color: #F3C99F;
 }
-
-
 
 .navbar {
   font-weight: bolder;
@@ -101,17 +99,8 @@ ul .nav-link li a:hover {
   align-items: stretch;
 }
 
-
-li {
+.nav-item {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.container {
-  text-align: center;
 }
 
 .clickbutton {
@@ -123,23 +112,72 @@ a {
   text-transform: uppercase;
   background-color: #F09701;
   font-family: 'Poiret One', cursive;
-  padding: 12px;
+  padding: 2rem;
   font-size: 1.5rem;
   display: inline-block;
   text-align: center;
   vertical-align: center;
-  margin-top: 40px;
-} 
+  margin-top: 4rem;
+}
 
 /* BARRE DE RECHERCHE FORMULAIRE DESTINATION */
 
-/* .search-bar {
+label{
+  display:none;
+}
+
+.section1 {
+  background-color: black;
+  color: floralwhite;
+  height: 10%;
+  width: 100%;
+}
+
+.full-search-bar{
+  align-content: space-around;
+}
+
+.search-bar {
   display: flex;
-  max-width: 1300px;
   margin: auto;
+  align-content: space-around;
+}
+
+.form-style{
+  text-align: left;
+
 }
 
 .btn-search {
   background-color: #F09701;
-  text-transform: capitalize;
-} */
+  text-transform: uppercase;
+}
+
+/* Section2  */
+
+
+
+.section2{
+  width: 100%;
+  text-align: center;
+  /* align-items: center; */
+  /* align-content: center; */
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+}
+
+.card1{
+  background-color: #F2AC06;
+}
+
+.card2{
+  background-color: #FB5E3D;
+}
+
+.card3{
+  background-color: #63AF9A;
+}
+

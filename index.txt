@@ -1,0 +1,113 @@
+  <div class="container-fluid">
+    <!-- :::::::::::::::::::::::::::::::: HEADER ::::::::::::::::::::::::::::::::: -->
+    <header class="header align-items-md-center">
+      <a class="navbar-brand" href="#"><img class="logoimg " src="assets/img/logo_eco_travel.png" alt="sitelogo"></a>
+      <ul class="nav nav-fill">
+        <li class="nav-item">
+          <a href="" class="nav-link" href="" class="active">destinations</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" href="">inspiration</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" href="">ecovolontariat</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link" href="">qui sommes nous ?</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link contact" href=""> nous contacter</a>
+        </li>
+      </ul>
+    </header>
+    <div class="backgroundimg">
+      <div class="container text-center">
+        <h1 class="herozonetitle">L'art du voyage authentique</h1>
+        <h1 class="subtitle">Une selection de voyage éco-responsables et éthiques</p>
+          <button type="button" class="clickbutton fontweight texttransform">evadez-vous</button>
+      </div>
+    </div>
+    <!--:::::::::::::::::::::::::::::::: SECTION FORMULAIRE:::::::::::::::::::::::::::::::: -->
+    <div class="section1">
+      <form action="index.html" method="GET" class="form-search">
+        <div class="full-search-bar">
+          <div class="search-bar">
+            <label for="destinations">Destinations</label>
+            <input type="text" name="destination" class="form-style" id="destinations"
+              placeholder="Destinations (continent,pays,ville)">
+            <label for="ville">Ville de départ</label>
+            <input type="text" name="ville-depart" class="form-style" id="ville" placeholder="Ville de départ">
+            <label for="date-depart">Date de départ</label>
+            <input name="date-depart" type="text" class="form-style" id="date-depart" placeholder="Date de départ">
+            <label for="date-retour">Date de retour</label>
+            <input name="date-retour" type="text" class="form-style" id="date-retour" placeholder="Date de retour">
+            <label for="type-de-voyage">Type de voyage</label>
+            <input name="type-de-voyage" type="text" class="form-style" id="date-retour" placeholder="Type de voyage">
+            <label for="btn-search">&nbsp;</label>
+            <button type="submit" class="btn-search" id="btnSubmit">rechercher</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="section2">
+      <h2>votre aventure est notre priorite</h2>
+      <p>Que vous souhaitiez voyager seul, en couple, en famille, entre amis ou en groupe,
+        notre éco' équipe de spécialistes est là pour vous aider à créer votre voyage et vous proposer des prestations
+        de qualité adaptées à vos envies.</p>
+      <button type="submit" class="btn-search" id="btnSubmit">explorer</button>
+      <div class="card mb-0 " style="max-width: 100rem;">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <img src="assets\img\nouvelle_zelande1.jpg" class="card-img" alt="paysage">
+          </div>
+          <div class="col-md-6 card1">
+            <div class="card-body ">
+              <h5 class="card-title">où partir en 2020 ? nos incontournables</h5>
+              <p class="card-text">Voyagez autrement et découvrez des
+                destinations inattendues à explorer. Retrouvez
+                notre top 6 des pays a visiter hors des sentiers
+                battus et 100% tourisme durable!
+              </p>
+              <p class="card-text"><small class="text-muted">En savoir plus ...</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-0 mt-0" style="max-width: 100rem;">
+        <div class="row no-gutters">
+          <div class="col-md-6 card2">
+            <div class="card-body">
+              <h5 class="card-title">conseils voyage dans l'ouest americain</h5>
+              <p class="card-text">Un voyage dans l’Ouest américain, c’est déjà réaliser un voyage mythique.
+                On a tous en tête les images de la Californie, San Francisco,
+                Las Vegas, sans parler des westerns spaghettis avec leurs paysages grandioses à Monument Valley
+                notamment.
+              </p>
+              <p class="card-text"><small class="text-muted">En savoir plus ...</small></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="assets\img\nouvelle_zelande1.jpg" class="card-img" alt="paysage">
+          </div>
+        </div>
+      </div>
+      <div class="card mb-0 mt-0" style="max-width: 100rem;">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <img src="assets\img\nouvelle_zelande1.jpg" class="card-img" alt="paysage">
+          </div>
+          <div class="col-md-6 card3">
+            <div class="card-body ">
+              <h5 class="card-title">voyage - costa rica</h5>
+              <p class="card-text">Voyagez autrement et découvrez des
+                destinations inattendues à explorer. Retrouvez
+                notre top 6 des pays a visiter hors des sentiers
+                battus et 100% tourisme durable!
+              </p>
+              <p class="card-text"><small class="text-muted">En savoir plus ...</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
